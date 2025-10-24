@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SocialTech PRODUCT</title>
+        <meta charset="utf-8">
+        <meta name="description" content="SocialTechのプロダクト">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head> 
+    <body>
+        <header>
+            <a href="index.html" id=""logo>
+                <img src="images/logo.png" alt="">
+            </a>
+
+            <!-- pc navigation -->
+             <nav id="nav-pc">
+                <ul>
+                    <li><a href="mission.html">MISSION</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="index.html#aboutus">ABOUT US</a></li>
+                    <li><a href="index.html#vision">VISION</a></li>
+                    <li><a href="index.html#company">COMAPNY</a></li>
+                    <li><a href="index.html#contact">CONTACT</a></li>
+                </ul>
+             </nav>
+
+             <!-- smartphone menu -->
+              <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+                <img src="images/button-menu.png" alt="">
+              </button>
+
+              <!-- smartphone navigation -->
+              <div id="nav-sp">
+                <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                    <img src="images/button-close.png" alt="">
+                </button>
+                <nav>
+                    <ul>
+                        <li>
+                            <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt=""></a>
+                        </li>
+                        <li><a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.dispaly = 'none'">MISSION</a></li>
+                        <li><a class="menu" href="product.html" onclick="document.getElementById('nav-sp').style.dispaly = 'none'">PRODUCT</a></li>
+                        <li><a class="menu" href="index.html#aboutus" onclick="document.getElementById('nav-sp').style.dispaly = 'none'">ABOUT US</a></li>
+                        <li><a class="menu" href="index.html#vision" onclick="document.getElementById('nav-sp').style.dispaly = 'none'">VISION</a></li>
+                        <li><a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.dispaly = 'none'">COMPANY</a></li>
+                        <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.dispaly = 'none'">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div id="sns">
+                    <a href="https://www.facebook.com/sejuku2013">
+                        <img src="images/button-facebook.png" alt="">
+                    </a>
+                    <a href="https://www.twitter.com/sejuku2013">
+                        <img src="images/button-twitter.png" alt="">
+                    </a>
+                    </a>
+                    <a href="https://www.youtube.com/sejuku2013">
+                        <img src="images/button-youtube.png" alt="">
+                    </a>
+                </div>
+              </div>
+        </header>
+        <main>
+            <article>
+                <section id="product-main">
+                    <div class="product-main-inner">
+                        <div id="product-title">
+                            <h1>PRODUCT<br><span>プロダクト</span></h1>
+                            <p>TOP > PRODUCT</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="product-section product-section-left">
+                    <div class="product-section-img">
+                        <img src="images/product/product-mantoman.png" alt="">
+                    </div>
+                    <div class="product-read">
+                        <h2 class="product-h2">MAN TO MAN</h2>
+                        <h3 class="product-h3">プログラミング教育</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quod animi, molestias placeat, natus quasi impedit, eius quae modi non sequi nam corporis porro! Accusantium ullam eaque vitae hic culpa.</p>
+                    </div>
+                </section>
+
+                <section class="product-section product-section-right">
+                    <div class="product-read">
+                        <h2 class="product-h2">MEDIA</h2>
+                        <h3 class="product-h3">プログラミング学習メディア</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quod animi, molestias placeat, natus quasi impedit, eius quae modi non sequi nam corporis porro! Accusantium ullam eaque vitae hic culpa.</p>
+                    </div>
+                    <div class="product-section-img">
+                        <img src="images/product/product-media.png" alt="">
+                    </div>
+                </section>
+
+                <section class="product-section product-section-left">
+                    <div class="product-section-img">
+                        <img src="images/product/product-career.png" alt="">
+                    </div>
+                    <div class="product-read">
+                        <h2 class="product-h2">CAREER</h2>
+                        <h3 class="product-h3">人材紹介事業 </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quod animi, molestias placeat, natus quasi impedit, eius quae modi non sequi nam corporis porro! Accusantium ullam eaque vitae hic culpa.</p>
+                    </div>
+                </section>
+
+                <section class="product-section product-section-right">
+                    <div class="product-read">
+                        <h2 class="product-h2">B2B</h2>
+                        <h3 class="product-h3">法人研修事業</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quod animi, molestias placeat, natus quasi impedit, eius quae modi non sequi nam corporis porro! Accusantium ullam eaque vitae hic culpa.</p>
+                    </div>
+                    <div class="product-section-img">
+                        <img src="images/product/product-b2b.png" alt="">
+                    </div>
+                </section>
+
+            </article>
+        </main>
+
+        <footer>
+            <div id="footer-logo">
+                <img src="images/logo-sp.png" alt="">
+            </div>
+            <div id="footer-link">
+                <a href="mission.html">MISSION</a>
+                <a href="product.html">PRODUCT</a>
+                <a href="index.html#aboutus">ABOUT US</a>
+                <a href="index.html#vision">VISION</a>
+                <a href="index.html#company">COMPANY</a>
+                <a href="index.html#contact">CONTACT</a>
+            </div>
+            <div id="sns-footer">
+                <div class="sns-btns">
+                    <a href="https://www.facebook.com/sejuku2013"><img src="images/button-facebook.png" alt=""></a>
+                    <a href="https://www.twitter.com/sejuku2013"><img src="images/button-twitter.png" alt=""></a>
+                    <a href="https://www.youtube.com/sejuku2013"><img src="images/button-youtube.png" alt=""></a>
+                </div>
+                <p id="copyright">&copy;2021 SocialTech</p>
+            </div>
+        </footer>
+    </body>
+</html>
